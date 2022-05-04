@@ -1,0 +1,305 @@
+/*
+*{
+	font-family: 'gothyc';
+	font-weight: bold;
+}
+*/
+
+*{
+font-family:helvetica;
+}
+
+#banner-identificacion {
+    background-image:url(../AppData/Local/Temp/img/banner-institucional.png);
+    height:100px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1030;
+    border-bottom:1px solid gray;
+}
+
+a{
+  cursor: pointer;
+  color:#00a65a;
+}
+
+a:hover{
+  color:#00c64a;
+}
+
+body.fixed #banner-identificacion {
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.bg-black {
+  color: #f9f9f9 !important;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  height:700px;
+}
+
+.btn.btn-app {
+  margin:-10px 0 10px 10px;
+  padding: 7px 0px;
+  height: 50px;
+  min-width: 60px;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color:white;
+}
+                            
+.btn.btn-app:hover {
+  background: #008d4c;
+  color:white;
+}
+
+.btn {
+  padding: 6px 10px;
+}
+
+.form-box .header {
+  background-color: transparent;
+  border-color: #00acd6;
+}
+
+.content {
+    padding: 5px 15px;
+}
+
+.skin-blue .right-side > .content-header {
+  box-shadow: 1px 1px 2px #c1c1c1;
+}
+
+.breadcrumb > li+li:before {
+  color: #797979;
+}
+#register-box{
+  width: 100%;
+}
+
+#box-h4{
+  background: #36424A;
+  color:white;
+  border-bottom:2px;
+  padding:10px;
+}
+
+#afiliaciones{
+  margin-top: 5px;
+  padding: 10px;
+  background: rgba(0,0,0,0.06);
+}
+#ajax-loader{
+  position: fixed;
+  right:5px;
+  bottom: 5px;
+
+}
+#box-content-notice{
+  padding:10px 10px;
+  font-size:18px;
+  background:#088;
+  color:#fff;
+}
+.content-notice{
+  border:1px solid #088;
+}
+.sep-not{
+  padding:5px;
+  border-bottom:1px solid #eee;
+  transition:.5s;
+}
+.sep-not:hover{
+  background: #eee;
+  transform:translateX(8px);
+}
+.sep-not a{
+  display: block;
+}
+.err{
+  padding: 10px;
+  border: 1px solid red;
+  background: pink;
+  color: white;
+  display: block;
+}
+#ocontent{
+  padding:10px;
+  margin-top:10px;
+}
+
+#cajafixed{
+  width:399px;
+  min-height:399px;
+  display: fixed;
+  position: absolute;
+  top:5%;
+  right:30%;
+  padding:40px;
+  border-radius:5px;
+  background: #fff;
+  color:#333;
+  z-index:100000000;
+  display: none;
+}
+
+#xcajafixed{
+background: #800;
+padding:10px 15px;
+font-weight: bold;
+border-radius: 100px;
+color:white;
+cursor: pointer;
+position: absolute;
+top:-13px;
+right:-13px;
+box-shadow: -1px 1px 1px #444;
+}
+#bgf{
+  background: rgba(0,0,0,0.8);
+  width: 10000px;
+  height: 10000px;
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index:1000000;
+  display: none;
+}
+#titulito{
+  padding:10px;background:#07b;color:#fff;
+}
+#contenidito{
+ padding:10px;border:1px solid #aaa;border-top:none;
+}
+
+.notif_novisto{
+  background: #ddd;
+  font-weight: bold;
+}
+.notif_novisto:hover{
+  background: #eee;
+}
+#agrandarx5{
+  transition:.5s;
+}
+#agrandarx5:hover{
+  transform:scale(5.5);
+}
+
+.producto{
+  background: rgba(0,0,0,0.07);
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  width: 220px;
+  height: 200px;
+}
+#cajaproducto{
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  margin:10px;
+}
+#cajaproducto .titulo{
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: center;
+  height: 50px;
+}
+#cajaproducto h4{
+
+}
+
+#cajaproducto .footer_producto{
+  padding: 10px 10px;
+}
+
+#fixed{
+  background: white;
+  padding: 10px;
+  position: fixed;
+  top:100px;
+  width: 200px;
+  min-height: 300px;
+  right:20%;
+  z-index: 5;
+  display: none;
+}
+#fondof{
+  background: rgba(0,0,0,0.8);
+  width: 10000px;
+  height: 10000px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index:4;
+  display: none;
+}
+#barra_carro_compra{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 320px;
+}
+#cuerpo_carro_compra{
+  position: fixed;
+  bottom: 43px;
+  right: 0px;
+  background: #fff;
+  width: 320px;
+  height: 250px;
+  display: none;
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+#cuerpo_carro_compra a{
+  color:#333;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom:1px solid #eaeaea;
+  display: block;
+}
+#cuerpo_carro_compra a:hover{
+  color:#000;
+  background: rgba(0,0,0,0.06);
+}
+#boton_compra{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background: #fff;
+  border-top: 1px solid #06a;
+  width: 320px;
+  padding:10px;
+  display: none;
+}
+
+.agrandarx2{
+  transition:.5s;
+}
+
+.agrandarx2:hover{
+  transform:scale(2.0);
+}
+
+.agrandarx1{
+  transition:.5s;
+}
+
+.agrandarx1:hover{
+  transform:scale(1.5);
+}
+
+#tcarrito tr td{
+  vertical-align: center;
+}
+
+#cadamiembro{
+  display: inline-block;
+  width: 245px;
+}

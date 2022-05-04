@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 mar. 2021, 12:47:39
+    Author     : User
+*/
+.modal-dialog{
+    width: 419px !important;
+}
+#formulario {
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+}
+
+.form-wrapper h2{
+    color:white;
+    background: #36424A;
+    padding:1rem;
+}
+
+.field-v_pan input[type="text"],.field-v_cvv2 input[type="text"],.field-v_expirydate input[type="text"]{
+    display: block;
+    border-radius: 5px;
+    background: #C2F5BC;
+    height: 35px;
+    border-style: none;
+    box-shadow: 0px 0px 5px #5cc151;
+    width: 100%;
+    
+}
+
+.field-v_pan,.field-v_expirydate,.field-v_cvv2{
+    margin-top: 1rem;
+}
+.field-v_pan label,.field-v_expirydate label,.field-v_cvv2 label{
+    margin-right: 1rem;
+}
+
+.error-message{
+    color: red;
+    font-weight: bold;
+}
+.submit {
+    padding-top: 5rem;
+    text-align: center
+}
+
+button[disabled]{
+    background: #95DF8C;
+    border-radius: 10px;
+    color: #D6D3D3;
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0.3rem 2rem;
+    border-style: none;
+}
+
+button{
+    background: #5cc151;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0.3rem 2rem;
+    border-style: none;
+}
+
+pre{
+    display: none;
+}

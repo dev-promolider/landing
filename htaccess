@@ -1,0 +1,21 @@
+#Se le esta añadiendo
+Options All -Indexes
+#--------------------
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?/$1 [L]
+
+
+
+
+# Impedir que se pueda ver el listado de contenidos de un directorio
+
+#Options All -Indexes
+
+# Url Amigables
+
+#RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9/]+)$ login.php?ruta=$1
+#EmerssonMendoza.com
